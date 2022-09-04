@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxab5efa1408c39f9c",
+  APP_ID: "",
 
   // 公众号APP_SECRET
-  APP_SECRET: "76e19e0814775ee12ccf300124d78e24",
+  APP_SECRET: "",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -29,15 +29,15 @@ export const config = {
       // 想要发送的人的名字
       name: "test",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oLbJN5g5a9Hy1nFoaq3QD_bLdOuw",
+      id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "kuyetDb_afLomgvSFK1FTLx-2YjoH-rPw7ycGbc6FAE",
+      useTemplateId: "",
       // 所在省份
-      province: "福建",
+      province: "",
       // 所在城市
-      city: "福州",
+      city: "",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: ""
     }
   
   ],
@@ -47,7 +47,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjVglIuCXo34CsraXWEio1i3P7sZJ7IQEES93lDsgc4yOU",
+  CALLBACK_TEMPLATE_ID: "",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -55,7 +55,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO36VskY3v0Kuf-ywIZVR3MpuXhk",
+      id: "",
     },
   ],
     
@@ -66,9 +66,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "福建",
+  PROVINCE: "",
   // 所在城市
-  CITY: "福州",
+  CITY: "",
 
   /** 重要节日相关 */
 
