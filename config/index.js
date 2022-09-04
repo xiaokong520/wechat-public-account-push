@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxab5efa1408c39f9c",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "76e19e0814775ee12ccf300124d78e24",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -27,42 +27,19 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "test",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxO123O6Vsk2Yv0Kuf-ywIZ3VRMpuXhk",
+      id: "oLbJN5g5a9Hy1nFoaq3QD_bLdOuw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
+      useTemplateId: "kuyetDb_afLomgvSFK1FTLx-2YjoH-rPw7ycGbc6FAE",
       // 所在省份
-      province: "广东",
+      province: "福建",
       // 所在城市
-      city: "肇庆",
+      city: "福州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆1", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "河源",
-      openUrl: "https://baidu.com"
-    }, 
-    {
-      name: "老婆2",
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "广州",
-      openUrl: "https://weibo.com"
-    }, 
-    {
-      name: "老婆3", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk", 
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
+    }
+  
   ],
 
   /**
@@ -79,7 +56,7 @@ export const config = {
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ohxOO36VskY3v0Kuf-ywIZVR3MpuXhk",
-    }, 
+    },
   ],
     
   /**
@@ -89,9 +66,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "广东",
+  PROVINCE: "福建",
   // 所在城市
-  CITY: "惠州",
+  CITY: "福州",
 
   /** 重要节日相关 */
 
